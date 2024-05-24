@@ -27,9 +27,6 @@ export default function SideBar({ docs = [] }) {
     <nav className='lg:mt-10 lg:block'>
       <ul>
         <div>
-          <div className='absolute inset-x-0 top-0 bg-zinc-800/2.5 will-change-transform dark:bg-white/2.5'></div>
-          <div className='absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5'></div>
-          <div className='absolute left-2 h-6 w-px bg-emerald-500'></div>
           <ul
             role='list'
             className='border-l border-transparent'
